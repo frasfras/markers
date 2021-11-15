@@ -10,7 +10,7 @@ export default {
   name: 'Map',
   mounted(){
     
-    window.mapboxgl.accessToken =     "pk.eyJ1IjoiZnJ1bms5IiwiYSI6ImNrdzBmZ3NwOTRzNjAycWtsOG44cXV0MG0ifQ.4gXZsnPLXMMjX2u5t2fefg";
+    window.mapboxgl.accessToken =  "pk.eyJ1IjoiZnJ1bms5IiwiYSI6ImNrdzBmZ3NwOTRzNjAycWtsOG44cXV0MG0ifQ.4gXZsnPLXMMjX2u5t2fefg";
     var map = new window.mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/dark-v9',
@@ -50,7 +50,7 @@ export default {
     
 <style>
 .marker {
-  
+  background-image: url('./../assets/mapbox-icon.png');
   background-size: cover;
   width: 50px;
   height: 50px;
