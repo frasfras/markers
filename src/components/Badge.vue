@@ -3,7 +3,7 @@
   <div class="badge" :id="name">
     <img alt="vue" class="badge-img" :src="'https://ftech.azurewebsites.net' + image" />
    
-    <img alt="Vue logo" src="https://ftech.azurewebsites.net/wp-content/uploads/2021/11/Max.png">
+   
     <h3>{{ name }}</h3>
   </div>
 </template>
